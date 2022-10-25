@@ -1,0 +1,1 @@
+"use strict";jQuery(function(e){e(".vcalendar").eventPreview(),e(".package").packagePreview(),e(".share-link").initializeSharing(),e(".follow-link").initializeFollowing(),jQuery.prototype.msnMap});

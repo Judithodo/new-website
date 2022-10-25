@@ -1,0 +1,186 @@
+.right li{
+    list-style:none;
+    padding-left: 20px;
+}
+.right{
+    display: flex;
+    font-size:15px;
+    margin-top:25px;
+    
+}
+.right a{
+    text-decoration: none;
+    color: #000;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    /* padding:25px; */
+}
+
+.menu{
+	width:30px;
+	height: 30px;
+	/* border:3px solid #000; */
+	/* border-radius:10px; */
+	position:relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bar{
+	width:90%;
+	height:2px;
+	background:navy;
+	position: absolute;
+}
+.bar::before{
+	width:100%;
+	height:2px;
+	background:navy;
+	content:"";
+	position: absolute;
+	top:-8px;
+
+}
+.bar::after{
+	width:100%;
+	height:2px;
+	background:navy;
+	content:"";
+	position: absolute;
+	top:8px;
+}
+.container-fluid{
+    font-family:'monoscope';
+}
+.activities{
+    background-color: rgb(239, 239, 239);
+    color:grey;
+    cursor: pointer;
+
+}
+.active-child{
+    border-left: 1px solid grey;
+    padding:5px;
+}
+.title, .title1, .title2{
+    border: 1px solid rgb(2, 2, 92);
+    color: rgb(2, 2, 92);
+}
+.title{
+    font-size:11px;
+}
+.title1, .title2{
+    font-size :13px;
+}
+.select{
+    background-color:rgb(175, 147, 108);
+    color: #fff;
+    font-size: 12px;
+    outline:0px;
+    border: 0px;
+    cursor: pointer;
+	transition: all.4s ease-in-out;
+	
+}
+.select:hover{
+    background-color:rgb(170, 127, 67) !important;
+}
+.select2{
+    background-color:rgb(175, 147, 108);
+    font-size: 12px;
+}
+.top-image-list{
+    font-size: 11px;
+    background-color: rgb(68, 65, 63);
+}
+.highlight{
+    font-family: 'monoscope';
+    text-align: center;
+}
+.menu2{
+	width:60px;
+	height: 60px;
+	margin:40px;
+	/* position:relative; */
+}
+.bar2{
+	width:90%;
+	height:3px;
+	background:rgb(175, 147, 108);
+	/* position: absolute; */
+    
+}
+.explore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+.trump{
+	color:rgb(175, 147, 108);
+
+}
+.bottom, .footer{
+    font-size :13px;
+}
+.trump2{
+	color:rgb(175, 147, 108);
+    font-size:50px;
+}
+.join{
+    background-color: rgb(236, 236, 236);
+}
+.text{
+    font-size:70px;
+    font-family:freestyle script;
+}
+.text2{
+    font-family: algerian;
+}
+.text3{
+    font-size:12px;
+    font-family: algerian;
+
+}
+.text4{
+    font-size:14px;
+    font-family: arial;
+
+}
+.footer-end p{
+    font-size:12px;
+}
+.dining{
+    width:60%;
+}
+.submit button{
+    border:0px;
+    outline:0px;
+    /* width:100%; */
+}
+.submit2 input{
+    border:0px;
+    outline:0px;
+
+}
+/* .form{
+    border:2px solid grey;
+} */
+.display div{
+	transition: all.4s ease-in;
+
+}
+.display div:hover{
+	transform: translateY(5px);
+}
+.form-group button{
+    cursor: pointer;
+	transition: all.4s ease-in-out;  
+}
+.form-group button:hover{
+	background-color: rgb(2, 2, 49);
+
+}

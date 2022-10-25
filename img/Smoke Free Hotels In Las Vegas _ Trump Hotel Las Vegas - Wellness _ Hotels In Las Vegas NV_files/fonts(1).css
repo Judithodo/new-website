@@ -1,0 +1,51 @@
+/* GARAMOND PREMIERE PRO REGULAR */
+@font-face {
+	font-family: 'Garamond Premier Pro';
+	src:
+	 url('fonts/GaramondPPro-Regular.eot?#iefix') format('embedded-opentype'),
+	 url('fonts/GaramondPPro-Regular.woff') format('woff'),
+	 url('fonts/GaramondPPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+/* GARAMOND PREMIERE PRO ITALIC */
+@font-face {
+	font-family: 'Garamond Premier Pro Italic';
+	src:
+		url('fonts/GaramondPPro-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GaramondPPro-Italic.woff') format('woff'),
+		url('fonts/GaramondPPro-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+/* GARAMOND PREMIERE PRO BOLD */
+@font-face {
+	font-family: 'Garamond Premier Pro';
+	src:
+		url('fonts/GaramondPPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GaramondPPro-Bold.woff') format('woff'),
+		url('fonts/GaramondPPro-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+/* GARAMOND PREMIERE PRO SEMIBOLD */
+@font-face {
+	font-family: 'Garamond Premier Pro';
+	src:
+		url('fonts/GaramondPPro-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GaramondPPro-Semibold.woff') format('woff'),
+		url('fonts/GaramondPPro-Semibold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* GARAMOND PREMIERE PRO ROMAN */
+@font-face {
+	font-family: 'Garamond Premier Pro Roman';
+	src:
+	 url('fonts/GaramondPPro-Roman.eot?#iefix') format('embedded-opentype'),
+	 url('fonts/GaramondPPro-Roman.woff') format('woff'),
+	 url('fonts/GaramondPPro-Roman.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
